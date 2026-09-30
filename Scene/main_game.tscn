@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://5ctpd6sc8a7l"]
+
+[ext_resource type="FontFile" uid="uid://do5sudn5e05n4" path="res://Assets/MainMenu/IMFellEnglishSC-Regular.ttf" id="1_jv8gs"]
+[ext_resource type="Script" uid="uid://bimelmc1ce1b2" path="res://addons/simple-gui-transitions/transition.gd" id="2_vh4eo"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_6y2c0"]
+font = ExtResource("1_jv8gs")
+font_size = 68
+font_color = Color(0, 0, 0, 1)
+
+[node name="MainGame" type="Node2D" unique_id=304744008]
+
+[node name="GuiTransition" type="Node" parent="." unique_id=1254745562]
+script = ExtResource("2_vh4eo")
+duration = 1.03
+transition_type = "SINE"
+ease_type = "IN"
+layout = NodePath("../ColorRect")
+metadata/_custom_type_script = "uid://bimelmc1ce1b2"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=756033105]
+offset_left = -26.0
+offset_top = -38.0
+offset_right = 1179.0
+offset_bottom = 725.0
+pivot_offset = Vector2(546, 299)
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=1775761412]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.23112033
+anchor_top = 0.44298822
+anchor_right = 0.76887965
+anchor_bottom = 0.5570118
+offset_left = 304.0
+offset_top = 32.0
+offset_right = -304.0
+offset_bottom = -32.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Nothing In The Game"
+label_settings = SubResource("LabelSettings_6y2c0")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true

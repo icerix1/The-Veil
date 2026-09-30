@@ -1,0 +1,7 @@
+GuiTransition
+Label
+ColorRect
+Button
+Control
+AnimatedSprite2D
+CanvasLayer

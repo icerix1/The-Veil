@@ -1,0 +1,398 @@
+[gd_scene format=3 uid="uid://gyp7k45y43im"]
+
+[ext_resource type="Script" uid="uid://5qpimprecvws" path="res://Script/settings_menu.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://bujbjt11bxgg" path="res://Assets/MainMenu/BackgroundFrame/frame_0001.png" id="2_f01"]
+[ext_resource type="Texture2D" uid="uid://erpvndbeloth" path="res://Assets/MainMenu/BackgroundFrame/frame_0002.png" id="3_f02"]
+[ext_resource type="Texture2D" uid="uid://6yn5clrhgi2a" path="res://Assets/MainMenu/BackgroundFrame/frame_0003.png" id="4_f03"]
+[ext_resource type="Texture2D" uid="uid://dpta20oriow1x" path="res://Assets/MainMenu/BackgroundFrame/frame_0004.png" id="5_f04"]
+[ext_resource type="Texture2D" uid="uid://bw27reryaqdcu" path="res://Assets/MainMenu/BackgroundFrame/frame_0005.png" id="6_f05"]
+[ext_resource type="Texture2D" uid="uid://dwhw6e8m5hg5e" path="res://Assets/MainMenu/BackgroundFrame/frame_0006.png" id="7_f06"]
+[ext_resource type="Texture2D" uid="uid://1oa6s05u4e5j" path="res://Assets/MainMenu/BackgroundFrame/frame_0007.png" id="8_f07"]
+[ext_resource type="Texture2D" uid="uid://dab6cfsrrwo5k" path="res://Assets/MainMenu/BackgroundFrame/frame_0008.png" id="9_f08"]
+[ext_resource type="Texture2D" uid="uid://c2vb33f2wff6l" path="res://Assets/MainMenu/BackgroundFrame/frame_0009.png" id="10_f09"]
+[ext_resource type="Texture2D" uid="uid://w5bg3q74sc88" path="res://Assets/MainMenu/BackgroundFrame/frame_0010.png" id="11_f10"]
+[ext_resource type="Texture2D" uid="uid://dx606tvslt6h6" path="res://Assets/MainMenu/BackgroundFrame/frame_0011.png" id="12_f11"]
+[ext_resource type="Texture2D" uid="uid://dafx1ay51eufs" path="res://Assets/MainMenu/BackgroundFrame/frame_0012.png" id="13_f12"]
+[ext_resource type="Texture2D" uid="uid://gqt04eqxkl02" path="res://Assets/MainMenu/BackgroundFrame/frame_0013.png" id="14_f13"]
+[ext_resource type="Texture2D" uid="uid://d4gca8rs114vm" path="res://Assets/MainMenu/BackgroundFrame/frame_0014.png" id="15_f14"]
+[ext_resource type="Texture2D" uid="uid://cpnyv2lyj15dn" path="res://Assets/MainMenu/BackgroundFrame/frame_0015.png" id="16_f15"]
+[ext_resource type="Texture2D" uid="uid://djpdlnsrpvu18" path="res://Assets/MainMenu/BackgroundFrame/frame_0016.png" id="17_f16"]
+[ext_resource type="Texture2D" uid="uid://v74nl45edjyv" path="res://Assets/MainMenu/BackgroundFrame/frame_0017.png" id="18_f17"]
+[ext_resource type="Texture2D" uid="uid://cjptqt2k5hdlu" path="res://Assets/MainMenu/BackgroundFrame/frame_0018.png" id="19_f18"]
+[ext_resource type="Texture2D" uid="uid://dlvv3vg67b5oq" path="res://Assets/MainMenu/BackgroundFrame/frame_0019.png" id="20_f19"]
+[ext_resource type="Texture2D" uid="uid://tulkq6f78e8k" path="res://Assets/MainMenu/BackgroundFrame/frame_0020.png" id="21_f20"]
+[ext_resource type="Texture2D" uid="uid://nn746w1al5t0" path="res://Assets/MainMenu/BackgroundFrame/frame_0021.png" id="22_f21"]
+[ext_resource type="Texture2D" uid="uid://confa8wsuboe" path="res://Assets/MainMenu/BackgroundFrame/frame_0022.png" id="23_f22"]
+[ext_resource type="Texture2D" uid="uid://bc7odjgx2yg5m" path="res://Assets/MainMenu/BackgroundFrame/frame_0023.png" id="24_f23"]
+[ext_resource type="Texture2D" uid="uid://bkyttahtrr4n5" path="res://Assets/MainMenu/BackgroundFrame/frame_0024.png" id="25_f24"]
+[ext_resource type="FontFile" uid="uid://do5sudn5e05n4" path="res://Assets/MainMenu/IMFellEnglishSC-Regular.ttf" id="27_font_fell"]
+[ext_resource type="Script" uid="uid://bimelmc1ce1b2" path="res://addons/simple-gui-transitions/transition.gd" id="27_vp2hx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_f01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_f02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_f03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_f04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_f06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_f07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_f08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_f09")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_f10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_f11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_f12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_f13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_f14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_f15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_f16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_f17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_f18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_f19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_f20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_f21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_f22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_f23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_f24")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vp2hx"]
+font = ExtResource("27_font_fell")
+font_size = 40
+font_color = Color(0.9098039, 0.6, 0.6, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_hover"]
+bg_color = Color(0.4, 0.16, 0.21, 0.9)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.9, 0.6, 0.65, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="SettingsMenu" type="Control" unique_id=1212555263]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="GuiTransition" type="Node" parent="." unique_id=925332808]
+script = ExtResource("27_vp2hx")
+layout = NodePath("../CenterContainer")
+metadata/_custom_type_script = "uid://bimelmc1ce1b2"
+
+[node name="Background" type="AnimatedSprite2D" parent="." unique_id=178158699]
+texture_filter = 5
+position = Vector2(576, 324)
+scale = Vector2(1.5, 1.7)
+sprite_frames = SubResource("SpriteFrames_bg")
+autoplay = "default"
+
+[node name="DarkOverlay" type="ColorRect" parent="." unique_id=666947481]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2847222
+anchor_top = 0.07716049
+anchor_right = 0.71875
+anchor_bottom = 0.9074074
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.04, 0.03, 0.05, 0.75)
+metadata/_edit_use_anchors_ = true
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1259122490]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SettingsPanel" type="PanelContainer" parent="CenterContainer" unique_id=2086345159]
+custom_minimum_size = Vector2(500, 520)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="CenterContainer/SettingsPanel" unique_id=883611770]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 24
+
+[node name="VBox" type="VBoxContainer" parent="CenterContainer/SettingsPanel/Margin" unique_id=798972087]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Title" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=896505669]
+layout_mode = 2
+text = "SETTINGS"
+label_settings = SubResource("LabelSettings_vp2hx")
+horizontal_alignment = 1
+
+[node name="AudioHeader" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1011733019]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.75, 0.5, 0.55, 0.9)
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 14
+text = "AUDIO"
+
+[node name="MasterRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1341338147]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/MasterRow" unique_id=1689245682]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+text = "Master Volume"
+
+[node name="MasterSlider" type="HSlider" parent="CenterContainer/SettingsPanel/Margin/VBox/MasterRow" unique_id=504195602]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 20)
+layout_mode = 2
+size_flags_vertical = 4
+max_value = 1.0
+step = 0.05
+value = 0.8
+
+[node name="MasterValue" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/MasterRow" unique_id=1371314545]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(45, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 13
+text = "80%"
+horizontal_alignment = 2
+
+[node name="MusicRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=39558342]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/MusicRow" unique_id=731931965]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+text = "Music Volume"
+
+[node name="MusicSlider" type="HSlider" parent="CenterContainer/SettingsPanel/Margin/VBox/MusicRow" unique_id=1224341528]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 20)
+layout_mode = 2
+size_flags_vertical = 4
+max_value = 1.0
+step = 0.05
+value = 0.7
+
+[node name="MusicValue" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/MusicRow" unique_id=592370056]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(45, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 13
+text = "70%"
+horizontal_alignment = 2
+
+[node name="SFXRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1069672574]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/SFXRow" unique_id=599434751]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+text = "SFX Volume"
+
+[node name="SFXSlider" type="HSlider" parent="CenterContainer/SettingsPanel/Margin/VBox/SFXRow" unique_id=1702010016]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 20)
+layout_mode = 2
+size_flags_vertical = 4
+max_value = 1.0
+step = 0.05
+value = 0.8
+
+[node name="SFXValue" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/SFXRow" unique_id=1171582800]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(45, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 13
+text = "80%"
+horizontal_alignment = 2
+
+[node name="HSeparator1" type="HSeparator" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=743111017]
+layout_mode = 2
+
+[node name="GameplayHeader" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1276178900]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.75, 0.5, 0.55, 0.9)
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 14
+text = "GAMEPLAY"
+
+[node name="ShakeRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=902500926]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/ShakeRow" unique_id=504001637]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+text = "Screen Shake"
+
+[node name="ShakeCheck" type="CheckButton" parent="CenterContainer/SettingsPanel/Margin/VBox/ShakeRow" unique_id=665048060]
+unique_name_in_owner = true
+layout_mode = 2
+button_pressed = true
+flat = true
+
+[node name="DamageRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=675009259]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/DamageRow" unique_id=721664480]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+text = "Damage Numbers"
+
+[node name="DamageCheck" type="CheckButton" parent="CenterContainer/SettingsPanel/Margin/VBox/DamageRow" unique_id=1006549076]
+unique_name_in_owner = true
+layout_mode = 2
+button_pressed = true
+flat = true
+
+[node name="HSeparator2" type="HSeparator" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1050344213]
+layout_mode = 2
+
+[node name="DisplayHeader" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=37885251]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.75, 0.5, 0.55, 0.9)
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 14
+text = "DISPLAY"
+
+[node name="FullscreenRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1093936417]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/FullscreenRow" unique_id=1554558398]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+text = "Fullscreen"
+
+[node name="FullscreenCheck" type="CheckButton" parent="CenterContainer/SettingsPanel/Margin/VBox/FullscreenRow" unique_id=760011448]
+unique_name_in_owner = true
+layout_mode = 2
+flat = true
+
+[node name="VSyncRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1572124732]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/SettingsPanel/Margin/VBox/VSyncRow" unique_id=769107501]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+text = "VSync"
+
+[node name="VSyncCheck" type="CheckButton" parent="CenterContainer/SettingsPanel/Margin/VBox/VSyncRow" unique_id=1433130177]
+unique_name_in_owner = true
+layout_mode = 2
+button_pressed = true
+flat = true
+
+[node name="HSeparator3" type="HSeparator" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=138525920]
+layout_mode = 2
+
+[node name="ButtonRow" type="HBoxContainer" parent="CenterContainer/SettingsPanel/Margin/VBox" unique_id=1487837280]
+custom_minimum_size = Vector2(0, 38)
+layout_mode = 2
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="ResetButton" type="Button" parent="CenterContainer/SettingsPanel/Margin/VBox/ButtonRow" unique_id=883127377]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(130, 36)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_hover")
+theme_override_styles/focus = SubResource("StyleBoxFlat_btn_hover")
+text = "RESET"
+
+[node name="BackButton" type="Button" parent="CenterContainer/SettingsPanel/Margin/VBox/ButtonRow" unique_id=530004564]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(130, 36)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("27_font_fell")
+theme_override_font_sizes/font_size = 15
+theme_override_styles/hover = SubResource("StyleBoxFlat_btn_hover")
+theme_override_styles/focus = SubResource("StyleBoxFlat_btn_hover")
+text = "BACK"
