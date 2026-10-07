@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://bwht6lie5yj0l"]
+
+[ext_resource type="Script" uid="uid://c5vd7javi08u5" path="res://Script/character_select.gd" id="1_bb8is"]
+
+[node name="CharacterSelect" type="Control" unique_id=1349926670]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bb8is")
+
+[node name="CharacterRow" type="HBoxContainer" parent="." unique_id=244401003]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MaleCac" type="PanelContainer" parent="CharacterRow" unique_id=522908743]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="MaleLayout" type="VBoxContainer" parent="CharacterRow/MaleCac" unique_id=404852247]
+layout_mode = 2
+
+[node name="Portrait" type="TextureRect" parent="CharacterRow/MaleCac/MaleLayout" unique_id=1831308485]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="CharacterRow/MaleCac/MaleLayout" unique_id=130276341]
+layout_mode = 2
+text = "Male"
+
+[node name="StatsList" type="VBoxContainer" parent="CharacterRow/MaleCac/MaleLayout" unique_id=1008183287]
+layout_mode = 2
+
+[node name="HealthLabel" type="Label" parent="CharacterRow/MaleCac/MaleLayout/StatsList" unique_id=219853837]
+layout_mode = 2
+text = "Health: 100"
+
+[node name="StaminaLabel" type="Label" parent="CharacterRow/MaleCac/MaleLayout/StatsList" unique_id=129741499]
+layout_mode = 2
+text = "Stamina: 80"
+
+[node name="AttackLabel" type="Label" parent="CharacterRow/MaleCac/MaleLayout/StatsList" unique_id=1867805436]
+layout_mode = 2
+text = "Attack Dmg: 55"
+
+[node name="FemaleCac" type="PanelContainer" parent="CharacterRow" unique_id=1246793618]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="FemaleLayout" type="VBoxContainer" parent="CharacterRow/FemaleCac" unique_id=2073630354]
+layout_mode = 2
+
+[node name="Portrait" type="TextureRect" parent="CharacterRow/FemaleCac/FemaleLayout" unique_id=1300077949]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="CharacterRow/FemaleCac/FemaleLayout" unique_id=1605586585]
+layout_mode = 2
+text = "Female"
+
+[node name="StatsList" type="VBoxContainer" parent="CharacterRow/FemaleCac/FemaleLayout" unique_id=2130784411]
+layout_mode = 2
+
+[node name="HealthLabel" type="Label" parent="CharacterRow/FemaleCac/FemaleLayout/StatsList" unique_id=835134762]
+layout_mode = 2
+text = "Health: 100"
+
+[node name="StaminaLabel" type="Label" parent="CharacterRow/FemaleCac/FemaleLayout/StatsList" unique_id=1253620593]
+layout_mode = 2
+text = "Stamina: 80"
+
+[node name="AttackLabel" type="Label" parent="CharacterRow/FemaleCac/FemaleLayout/StatsList" unique_id=1276638394]
+layout_mode = 2
+text = "Attack Dmg: 55"
+
+[node name="ConfirmButton" type="Button" parent="." unique_id=533956371]
+layout_mode = 0
+offset_left = 367.0
+offset_top = 596.0
+offset_right = 516.0
+offset_bottom = 627.0
+text = "Confirm character"
+
+[connection signal="gui_input" from="CharacterRow/MaleCac" to="." method="_on_male_cac_gui_input"]
+[connection signal="gui_input" from="CharacterRow/FemaleCac" to="." method="_on_female_cac_gui_input"]
+[connection signal="pressed" from="ConfirmButton" to="." method="_on_confirm_button_pressed"]

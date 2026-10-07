@@ -1,5 +1,4 @@
-res://Scene/settings_menu.tscn
+res://Scene/character_select.tscn
+res://Script/character_select.gd
 res://Scene/main_menu.tscn
 res://Script/main_menu.gd
-res://Script/settings_menu.gd
-res://Scene/main_game.tscn

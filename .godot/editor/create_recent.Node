@@ -1,7 +1,11 @@
-GuiTransition
 Label
-ColorRect
 Button
+VBoxContainer
+TextureRect
+PanelContainer
+HBoxContainer
+GuiTransition
+ColorRect
 Control
 AnimatedSprite2D
 CanvasLayer

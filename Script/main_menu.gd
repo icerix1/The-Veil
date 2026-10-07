@@ -65,7 +65,7 @@ func _on_quit_button_mouse_exited() -> void:
 
 
 func _on_play_button_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scene/main_game.tscn")
+	get_tree().change_scene_to_file("res://Scene/character_select.tscn")
 
 
 func _on_quit_button_pressed() -> void:

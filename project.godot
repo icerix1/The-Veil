@@ -25,6 +25,10 @@ window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
+[dotnet]
+
+project/assembly_name="The Vile"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/simple-gui-transitions/plugin.cfg")

@@ -198,6 +198,7 @@ anchor_left = 0.5477431
 anchor_top = 0.07407406
 anchor_right = 0.9383681
 anchor_bottom = 0.38271606
+offset_right = 28.0
 text = "A Game"
 label_settings = SubResource("LabelSettings_50pke")
 horizontal_alignment = 1
