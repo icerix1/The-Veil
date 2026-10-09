@@ -1,4 +1,3 @@
-res://Scene/character_select.tscn
-res://Script/character_select.gd
 res://Scene/main_menu.tscn
-res://Script/main_menu.gd
+res://Script/Globals/GameManager.gd
+res://Script/character_select.gd
